@@ -9,20 +9,20 @@ const App = () => {
 			<CommentDetail
 				author='Sam'
 				timeAgo='Today at 4:45PM'
-				commentText='Nice blog post!'
-				imgSrc={faker.image.image()}
+				content='Nice blog post!'
+				avatar={faker.image.image()}
 			/>
 			<CommentDetail
 				author='Alex'
 				timeAgo='Today at 2:00AM'
-				commentText='Not a good post!'
-				imgSrc={faker.image.image()}
+				content='Not a good post!'
+				avatar={faker.image.image()}
 			/>
 			<CommentDetail
 				author='Jane'
 				timeAgo='Yesterday at 5:00PM'
-				commentText='Props are great!'
-				imgSrc={faker.image.image()}
+				content='Props are great!'
+				avatar={faker.image.image()}
 			/>
 		</div>
 	);
